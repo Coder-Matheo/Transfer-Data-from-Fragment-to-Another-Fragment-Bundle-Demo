@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:inputType="text"
+        android:textStyle="bold"
+        android:textColor="@color/purple_700"
+        android:text="Fragment A"
+        android:textSize="34sp"/>
+    <EditText
+        android:id="@+id/editTextFragmentId"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_gravity="center"
+        android:gravity="left"
+        android:inputType="text"
+        android:hint="Input Text"
+        android:textSize="18sp"/>
+    <EditText
+        android:id="@+id/editText2FragmentId"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_gravity="center"
+        android:gravity="left"
+        android:inputType="number"
+        android:hint="Input Number"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/buttonFragmentAId"
+        android:layout_width="100dp"
+        android:layout_height="40sp"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"
+        android:gravity="center"
+        android:text="press"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
